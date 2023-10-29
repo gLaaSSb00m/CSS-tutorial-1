@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    font-family: Arial ;
+    border: border-box;
+}
+
+.navbar
+{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+}
+.nav-logo
+{
+    height: 50px;
+    width: 125px;
+}
+.logo
+{
+    background-image: url("logo.jpg");
+    background-size: contain;
+    height: 50px;
+    width: 125px;
+}
+.border
+{
+   border: 2px solid transparent; 
+}
+.border:hover
+{
+    border: 2px solid white;
+}
