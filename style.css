@@ -9,6 +9,7 @@
     height: 60px;
     background-color: #0f1111;
     color: white;
+    display: flex;
 }
 .nav-logo
 {
@@ -18,15 +19,27 @@
 .logo
 {
     background-image: url("logo.jpg");
-    background-size: contain;
+    background-size: cover;
     height: 50px;
     width: 125px;
 }
 .border
 {
-   border: 2px solid transparent; 
+   border: 1.5px solid transparent; 
 }
 .border:hover
 {
-    border: 2px solid white;
+    border: 1.5px solid white;
+}
+.add-icon-div
+{
+    width: 15px;;
+    height: 18px;
+}
+.add-icon
+{
+    background-image: url("loc1.png");
+    background-size: cover;
+    width: 15px;
+    height: 18px;
 }
